@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kishore</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="logo"><a href="#hero">Kishore</a></div>
+
+      <!-- Hamburger menu using checkbox -->
+      <input type="checkbox" id="menu-toggle"/>
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" id="hero">
+        <div class="hero__left">
+          <h1>Hi, I'm Kishore</h1>
+          <p>Frontend Developer & Designer</p>
+          <a href="#contact" class="btn">Contact Me</a>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about" id="about">
+        <div class="about-left">
+          <h2>About Me</h2>
+          <p>
+            I'm a passionate and self-motivated individual with a strong interest
+            in technology and creativity. I enjoy learning new skills, solving
+            problems, and building things that make a positive impact. With a
+            background in front-end development and a growing knowledge of modern
+            tools like ReactJS, I'm focused on creating responsive and
+            user-friendly web interfaces. I'm always eager to take on new
+            challenges, grow as a developer, and contribute to meaningful
+            projects.
+          </p>
+        </div>
+        <div class="about-right">
+          <img src="/asset/c.jpg" alt="profile">
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Tailwind CSS</li>
+        </ul>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <h3>Project 1</h3>
+            <img src="/asset/project1.png" alt="" />
+            <div class="project__description-left-align">
+              <h4>Login Page</h4>
+              <p class="p-d-para">
+                Description: This project is a static login page of figma.
+                Designed using only HTML and CSS.
+              </p>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>Project 2</h3>
+            <img src="/asset/project2.png" alt="" />
+            <div class="project__description-left-align">
+              <h4>Login Page</h4>
+              <p class="p-d-para">
+                Description: This project is a static login page of figma.
+                Designed using only HTML and CSS.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 Lumi Dev</p>
+      <div class="socials">
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">Twitter</a>
+      </div>
+    </footer>
+  </body>
+</html>
